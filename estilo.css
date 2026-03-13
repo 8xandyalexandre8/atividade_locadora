@@ -3,7 +3,7 @@ body {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1 {
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: #5a2f2f;
     font-weight: bold;
 }
@@ -50,7 +50,7 @@ a {
 a:hover {
     color: #c2b0c9;
     text-decoration: underline;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 label {
     font-size: 1.2rem;
