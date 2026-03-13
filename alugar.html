@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alugar</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/r0RKvvxgcQpUl0UHAOOJ.png">
+</head>
+<body>
+    <a href="telainicial.html">tela inicial</a>
+    <h2>Alugar</h2>
+    <form action="">
+        <label for="text">Qual o seu nome?</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required>
+        <br>
+
+        <label for="email">Qual o seu email?</label>
+        <input type="email" name="email" placeholder="Digite seu email" required>
+        <br>
+
+        <label for="tel">Qual o seu telefone?</label>
+        <input type="tel" name="telefone" placeholder="Digite seu telefone" required>
+        <br>
+        <label for="localizacao">Qual o endereço para entrega?</label>
+        <input type="text" id="localizacao" name="localizacao" autocomplete="street-address" placeholder="Digite seu endereço" required>
+        <br>
+        <p>Que filme você quer alugar?</p>
+        <input type="radio" id="o_menino_e_a_garça" name="filme" value="o_menino_e_a_garça">
+        <label for="o_menino_e_a_garça">* O Menino e a Garça</label><br>
+
+        <input type="radio" id="pricesa_mononoke" name="filme" value="pricesa_mononoke">
+        <label for="pricesa_mononoke">* Princesa Mononoke</label><br>
+
+        <input type="radio" id="meu_amigo_totoro" name="filme" value="meu_amigo_totoro">
+        <label for="meu_amigo_totoro">* Meu Amigo Totoro</label><br>
+
+        <input type="radio" id="a_viagem_de_chihiro" name="filme" value="a_viagem_de_chihiro">
+        <label for="a_viagem_de_chihiro">* A Viagem de Chihiro</label><br>
+
+        <input type="radio" id="castelo_animado" name="filme" value="castelo_animado">
+        <label for="castelo_animado">§ Castelo Animado</label><br>
+
+        <input type="radio" id="ponyo" name="filme" value="ponyo">
+        <label for="ponyo">§ Ponyo</label><br>
+
+        <input type="radio" id="tumulo_dos_vagalumes" name="filme" value="tumulo_dos_vagalumes">
+        <label for="tumulo_dos_vagalumes">! Túmulo dos Vagalumes</label>
+        <br>
+        <br>
+        <table border="1">
+        <!--cabeçalho-->
+        <thead>
+        <!--linha da tabela-->
+            <tr>
+            <!--itens da linha de cabeçalho-->
+                <th>alugar</th>
+                <th>por 3 dias</th>
+                <th>por 1 semana</th>
+                <th>por 2 semanas</th>
+            </tr>
+            </thead>
+        <!--corpo da tabela-->
+            <tbody>
+                <tr>
+                <!--itens da linha de corpo-->
+                    <td>Filmes em destaque *</td>
+                    <td>R$ 8,00</td>
+                    <td>R$ 16,00</td>
+                    <td>R$ 30,00</td>
+                </tr>
+                <tr>
+                    <td>filmes convencionais §</td>
+                    <td>R$ 5,00</td>
+                    <td>R$ 10,00</td>
+                    <td>R$ 18,00</td>
+                </tr>
+                <tr>
+                    <td>filmes na promoção !</td>
+                    <td>R$ 3,00</td>
+                    <td>R$ 6,00</td>
+                    <td>R$ 11,00</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Por quanto tempo você quer alugar?</p>
+        <input type="radio" id="3_dias" name="tempo" value="3_dias">
+        <label for="3_dias">3 dias</label><br>
+
+        <input type="radio" id="1_semana" name="tempo" value="1_semana">
+        <label for="1_semana">1 semana</label><br>
+
+        <input type="radio" id="2_semanas" name="tempo" value="2_semanas">
+        <label for="2_semanas">2 semanas</label><br>
+        <p>Qual a forma de pagamento?</p>
+        <input type="radio" id="debito" name="pagamento" value="debito">
+        <label for="debito">débito</label><br>
+
+        <input type="radio" id="credito" name="pagamento" value="credito">
+        <label for="credito">crédito</label><br>
+
+        <input type="radio" id="pix" name="pagamento" value="pix">
+        <label for="pix">pix</label><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+<footer>
+    <p>© 2024 Xilften</p>
+</footer>
+
+</html>
