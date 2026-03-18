@@ -1,19 +1,8 @@
 body {
      background-color: rgb(236, 143, 136);
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     background-image: url("imagens/totoro_fundo.png");
-     background-repeat: repeat; /* repete em todas as direções */
-     background-position: center center;
-     background-size: 200px ;
-     background-position: 10px 50px;
-    
-    animation: zoom 5s infinite ease-in-out;
 }
-@keyframes zoom {
-    0%   { background-size: 7rem; }
-    50%  { background-size: 10rem; }
-    100% { background-size: 7rem; }
-  }
+
 
 h1 {
     font-size: 2rem;
