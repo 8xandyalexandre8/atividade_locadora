@@ -54,6 +54,15 @@ p {
     border: 5px solid #BA110C;
     border-radius: 7px;
     transform: scale(1.1);
+    animation: pulsarBorda 0.6s infinite alternate;
+}
+@keyframes pulsarBorda {
+    from {
+        box-shadow: 0 0 0 0.2rem #BA110C;
+    }
+    to {
+        box-shadow: 0 0 0 0.4rem #BA110C;
+    }
 }
 a {
     color: #302136;
@@ -111,6 +120,7 @@ li {
     border: 5px solid #f71808;
     border-radius: 7px;
     transform: scale(1.1);
+    animation: pulsarBorda2 0.6s infinite alternate;
 }
 .imagem_simples:hover {
      width: 230px;
@@ -118,7 +128,15 @@ li {
     border: 5px solid #f71808;
     border-radius: 7px;
     transform: scale(1.1);
+    animation: pulsarBorda2 0.6s infinite alternate;
 }
+@keyframes pulsarBorda2 {
+    from {
+        box-shadow: 0 0 0 0.2rem #f71808;
+    }
+    to {
+        box-shadow: 0 0 0 0.4rem #f71808;
+    }
 ol {
     list-style-type: lower-roman;
 }
