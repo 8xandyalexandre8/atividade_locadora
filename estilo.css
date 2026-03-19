@@ -136,7 +136,7 @@ li {
     }
     to {
         box-shadow: 0 0 0 0.4rem #f71808;
-    }
+    }}
 ol {
     list-style-type: lower-roman;
 }
