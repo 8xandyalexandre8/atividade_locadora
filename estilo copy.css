@@ -53,7 +53,12 @@ a:hover {
     color: #c2b0c9;
     text-decoration: underline;
     font-size: 1.4rem;
+    animation: pulsarLink 2s infinite alternate;
 }
+@keyframes pulsarLink {
+    0%   { font-size: 1rem; }
+    50%  { font-size: 1.5rem; }
+    100% { font-size: 1rem; }}
 label {
     font-size: 1.2rem;
     color: #5a2f2f;
