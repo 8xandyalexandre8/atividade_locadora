@@ -1,49 +1,23 @@
 body {
      background-color: rgb(236, 143, 136);
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     -webkit-text-stroke: 0.5px rgb(231, 217, 217)
 }
 
 
-h1 {
-    font-size: 2rem;
-    color: #5a2f2f;
-    font-weight: bold;
-}
+
 h2 {
     font-size: 1.5rem;
     color: #5a2f2f;
     font-weight: bold;
 }
-h3{
-    font-size: 1.2rem;
-    color: #5a2f2f;
-    font-weight: bold;
-}
-h4 {
-    font-size: 1.2rem;
-    color: #5a2f2f;
-    font-weight: bold; 
-}
+
 p {
     font-size: 1.2rem;
     color: #5a2f2f;
     font-weight: bold;
 }
-.imagem-principal {
-    width: 350px;
-    height: 600px;
-    border: 5px solid #BA110C;
-    border-radius: 7px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-}
 
-.imagem-principal:hover {
-    width: 350px;
-    height: 600px;
-    border: 5px solid #BA110C;
-    border-radius: 7px;
-    transform: scale(1.1);
-}
 a {
     color: #302136;
     text-decoration: none;
@@ -59,60 +33,3 @@ a:hover {
     0%   { font-size: 1rem; }
     50%  { font-size: 1.5rem; }
     100% { font-size: 1rem; }}
-label {
-    font-size: 1.2rem;
-    color: #5a2f2f;
-    font-weight: bold;
-}
-tr {
-  font-size: 1.2rem;
-    color: #5a2f2f;
-    font-weight: bold;
-}
-th {
-  font-size: 1.2rem;
-    color: #5a2f2f;
-    font-weight: bold;
-}
-button {
-     font-size: 1.1rem;
-    color: #5a2f2f;
-    font-weight: bold;
-}
-.imagem_destaque {
-    width: 300px;
-    height: 550px;
-    border: 5px solid #8d2a23;
-    border-radius: 7px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-}
-.imagem_simples {
-    width: 230px;
-    height: 400px;
-    transition: all ease 0.4;
-    border: 5px solid rgb(161, 86, 80);
-    border-radius: 7px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-}
-li {
-    font-size: 1.2rem;
-    color: #5a2f2f;
-    font-weight: bold;
-}
-.imagem_destaque:hover {
-     width: 300px;
-    height: 550px;
-    border: 5px solid #f71808;
-    border-radius: 7px;
-    transform: scale(1.1);
-}
-.imagem_simples:hover {
-     width: 230px;
-    height: 400px;
-    border: 5px solid #f71808;
-    border-radius: 7px;
-    transform: scale(1.1);
-}
-ol {
-    list-style-type: lower-roman;
-}

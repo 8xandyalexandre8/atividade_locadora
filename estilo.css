@@ -8,6 +8,8 @@ body {
      background-position: 10px 50px;
     
     animation: zoom 5s infinite ease-in-out;
+    
+        -webkit-text-stroke: 0.5px rgb(231, 217, 217); /* Largura e cor da borda */
 }
 @keyframes zoom {
     0%   { background-size: 7rem; }
